@@ -1,0 +1,42 @@
+body{
+  background-color:  gray;
+}
+.header{
+  margin: 0 auto;
+  height: 100px;
+  width: 50%;
+  text-align: center;
+  }
+h4{
+  color: white
+}
+.container{
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image{
+  flex-basis: 30%;
+ }
+img{
+  height: 350px;
+  width: 300px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+ul{
+  list-style-type: square;
+}
+.others{
+  margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  .header {
+    float: none;
+    display: block;
+  }
+  .container{
+    float: none;
+    }
