@@ -38,5 +38,5 @@ ul{
     display: block;
   }
   .container{
-    float: none;
+    float: inline-start;
     }
