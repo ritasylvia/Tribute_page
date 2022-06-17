@@ -12,13 +12,15 @@ h4{
 }
 .container{
   margin: 50px auto;
-  display: flex;
+  display:flex;
   align-items: center;
+  margin-left: 40px;
   justify-content: center;
 }
 .image{
-  flex-basis: 30%;
- }
+  flex-basis: 40%;
+  padding-left: 120px;
+  }
 img{
   height: 350px;
   width: 300px;
@@ -31,13 +33,14 @@ ul{
   text-align: justify;
 }
 .others{
-  margin: 0 auto;
+  margin: 100px auto;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
   .header {
     float: none;
     display: block;
   }
-  .container{
+  .container .image{
     float: inline-start;
     }
+  }
